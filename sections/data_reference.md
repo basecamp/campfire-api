@@ -13,10 +13,13 @@ Message
   <user-id type="integer">2</user-id>
   <body>Hello Room</body>
   <created-at type="datetime">2009-11-22T23:46:58Z</created-at>
-  <type>#{TextMessage || PasteMessage || SoundMessage || AdvertisementMessage ||
-          AllowGuestsMessage || DisallowGuestsMessage || IdleMessage || KickMessage ||
-          LeaveMessage || SystemMessage || TimestampMessage || TopicChangeMessage ||
-          UnidleMessage || UnlockMessage || UploadMessage}</type>
+  <type>
+    #{TextMessage || PasteMessage || SoundMessage || AdvertisementMessage ||
+      AllowGuestsMessage || DisallowGuestsMessage || IdleMessage || KickMessage ||
+      LeaveMessage || SystemMessage || TimestampMessage || TopicChangeMessage ||
+      UnidleMessage || UnlockMessage || UploadMessage
+      ConferenceCreatedMessage || ConferenceFinishedMessage}
+  </type>
   <starred>true</starred>
 </message>
 ```
