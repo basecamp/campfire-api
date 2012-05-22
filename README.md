@@ -39,6 +39,7 @@ API Endpoints
 * [Messages](https://github.com/37signals/campfire-api/blob/master/sections/messages.md)
 * [Transcripts](https://github.com/37signals/campfire-api/blob/master/sections/transcripts.md)
 * [Users](https://github.com/37signals/campfire-api/blob/master/sections/users.md)
+* [Uploads](https://github.com/37signals/campfire-api/blob/master/sections/uploads.md)
 * [Streaming](https://github.com/37signals/campfire-api/blob/master/sections/streaming.md)
 
 (Hint: Press `t` to enable the file finder and type out the endpoint you need!)
