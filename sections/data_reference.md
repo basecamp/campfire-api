@@ -17,7 +17,7 @@ Message
     #{TextMessage || PasteMessage || SoundMessage || AdvertisementMessage ||
       AllowGuestsMessage || DisallowGuestsMessage || IdleMessage || KickMessage ||
       LeaveMessage || SystemMessage || TimestampMessage || TopicChangeMessage ||
-      UnidleMessage || UnlockMessage || UploadMessage
+      UnidleMessage || LockMessage || UnlockMessage || UploadMessage
       ConferenceCreatedMessage || ConferenceFinishedMessage}
   </type>
   <starred>true</starred>
