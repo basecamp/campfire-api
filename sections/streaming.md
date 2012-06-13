@@ -83,7 +83,7 @@ require "yajl/http_stream"
 token = 'xxx' # your API token
 room_id = 111 # the ID of the room you want to stream
 
-url = URI.parse("http://#{token}:x@streaming.campfirenow.com//room/#{room_id}/live.json")
+url = URI.parse("http://#{token}:x@streaming.campfirenow.com/room/#{room_id}/live.json")
 Yajl::HttpStream.get(url) do |message|
   puts message.inspect
 end
