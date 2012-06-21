@@ -15,7 +15,8 @@ The valid types are:
 
 * `TextMessage` (regular chat message),
 * `PasteMessage` (pre-formatted message, rendered in a fixed-width font),
-* `SoundMessage` (plays a sound as determined by the message, which can be either `rimshot`, `crickets`, or `trombone`),
+* `SoundMessage` (plays a sound as determined by the message, which can be `56k`, `bueller`, `crickets`, `dangerzone`, `drama`, `greatjob`, `horn`, `horror`,
+`live`, `loggins`, `noooo`, `nyan`, `ohmy`, `ohyeah`, `pushit`, `rimshot`, `sax`, `secret`, `tada`, `tmyk`, `trombone`, `vuvuzela`, `yeah`, or `yodel`)
 * `TweetMessage` (a Twitter status URL to be fetched and inserted into the chat)
 If an explicit type is omitted, it will be inferred from the content (e.g., if the message contains new line characters, it will be considered a paste).
 
