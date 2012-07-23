@@ -16,9 +16,9 @@ Message
   <type>
     #{TextMessage || PasteMessage || SoundMessage || AdvertisementMessage ||
       AllowGuestsMessage || DisallowGuestsMessage || IdleMessage || KickMessage ||
-      LeaveMessage || SystemMessage || TimestampMessage || TopicChangeMessage ||
-      UnidleMessage || LockMessage || UnlockMessage || UploadMessage
-      ConferenceCreatedMessage || ConferenceFinishedMessage}
+      LeaveMessage || EnterMessage || SystemMessage || TimestampMessage ||
+      TopicChangeMessage || UnidleMessage || LockMessage || UnlockMessage ||
+      UploadMessage || ConferenceCreatedMessage || ConferenceFinishedMessage}
   </type>
   <starred>true</starred>
 </message>
