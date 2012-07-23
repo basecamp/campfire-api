@@ -60,7 +60,7 @@ Example using the authentication token and a dummy password through curl:
 
     curl -u 605b32dd:X https://sample.campfirenow.com/room/2.json
 
-Remember that anyone who has your authentication token can see and change everything you have access to. So you want to guard that as well as you guard your username and password. If you come to fear that it has been compromised, just chang your regular password and the authentication token will change too.
+Remember that anyone who has your authentication token can see and change everything you have access to. So you want to guard that as well as you guard your username and password. If you come to fear that it has been compromised, just change your regular password and the authentication token will change too.
 
 The single exception to using the token for authentication is with the `/users/me.xml` endpoint, which may be accessed with the username and password of the authenticating user. The resulting XML will include (among other things) a `<api-auth-token>` element, containing the user's API token. This token can then be used for subsequent requests.
 
