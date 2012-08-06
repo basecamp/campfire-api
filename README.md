@@ -14,6 +14,7 @@ Wrappers and example code
 **Python**
 * [Pinder](http://github.com/rhymes/pinder)
 * [pyfire](https://github.com/mariano/pyfire)
+* [Camplight](https://github.com/mlafeldt/camplight)
 
 **Objective-C**
 * [HappyCamprFramework](https://github.com/blladnar/HappyCamprFramework/)
