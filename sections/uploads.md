@@ -9,6 +9,10 @@ Create upload
 
 POST a multipart/form-data request body (RFC 2388). The file parameter must be named `upload`.
 
+**Example with curl:**
+
+    curl -u TOKEN:X --form upload=@/path/to/file https://subdomain.campfirenow.com/room/1/uploads.xml
+
 **Request:**
 
     Content-Type: multipart/form-data; boundary=---------------------------XXX
