@@ -10,6 +10,7 @@ Search for term
 ---------------
 
 * `GET /search/#{term}.xml` returns all the messages across all rooms on this account containing the supplied term.
+* `GET /search?q=#{term}&format=xml` same as above, but avoids issues with periods (".") in the term.
 
 **Response:**
 
