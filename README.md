@@ -23,6 +23,7 @@ Wrappers and example code
 * [IceCube](http://labs.mimmin.com/icecube/)
 
 **Java**
+* [Jinder](https://github.com/flintinatux/jinder)
 * [campfireclient](http://github.com/alandipert/campfireclient)
 
 **C#**
