@@ -65,7 +65,7 @@ Remember that anyone who has your authentication token can see and change everyt
 
 The single exception to using the token for authentication is with the `/users/me.xml` endpoint, which may be accessed with the username and password of the authenticating user. The resulting XML will include (among other things) a `<api-auth-token>` element, containing the user's API token. This token can then be used for subsequent requests.
 
-If you're making a public integration with Campfire for others to enjoy, you can also use OAuth 2. This allows users to authorize your application to use Basecamp Classic on their behalf without having to copy/paste API tokens or touch sensitive login info.
+If you're making a public integration with Campfire for others to enjoy, you can also use OAuth 2. This allows users to authorize your application to use Campfire on their behalf without having to copy/paste API tokens or touch sensitive login info.
 
 Read the [37signals API Authentication Guide](https://github.com/37signals/api/tree/master/sections/authentication.md) for more info on using OAuth.
 
