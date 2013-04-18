@@ -51,7 +51,7 @@ Need a sample of each XML blob will look like? Check out the [Data Reference](ht
 Authentication
 --------------
 
-When you're using the API, it's always through an existing user in Campfire. There's no special API user. So when you use the API as "david", you get to see and work with what "david" is allowed to. Authenticating is done with an authentication token, which you'll find on the "Edit my Campfire account" screen in Campfire (click the "Reveal authentication token for API" link).
+When you're using the API, it's always through an existing user in Campfire. There's no special API user. So when you use the API as "david", you get to see and work with what "david" is allowed to. Authenticating is done with an authentication token, which you'll find on the "My info" screen in Campfire.
 
 When using the authentication token, you don't need a separate password. But since Campfire uses [HTTP Basic Authentication](http://www.ietf.org/rfc/rfc2617.txt), and lots of implementations assume that you want to have a password, it's often easier just to pass in a dummy password, like X.
 
