@@ -10,6 +10,11 @@ Connections
 Our servers will try to hold the streaming connections open indefinitely. However, API clients must be able to handle occasional timeouts or disruptions. Upon unexpected disconnection, API clients should wait for a few seconds before trying to reconnect.
 
 
+Authentication
+--------------
+
+Authentication is done with a token, which you'll find on the "My Info" screen in Campfire. The streaming API doesn't support OAuth.
+
 Formats
 -------
 
