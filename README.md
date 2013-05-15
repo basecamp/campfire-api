@@ -29,6 +29,9 @@ Wrappers and example code
 **C#**
 * [ccnet.campfire.plugin](http://github.com/alexscordellis/ccnet.campfire.plugin)
 
+**Erlang**
+* [ecampfire](https://github.com/0xAX/ecampfire)
+
 Wrote your own API wrapper? Feel free to open a pull request and add to this list!
 
 
