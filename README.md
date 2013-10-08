@@ -84,7 +84,7 @@ You should include a `User-Agent` header with the name of your application and a
 Reading through the API
 -----------------------
 
-The Highrise API has two category of actions for reading: Get one, or get many. All these actions are done through an HTTP GET, which also means that they're all easily explorable through a browser as described above.
+The Campfire API has two category of actions for reading: Get one, or get many. All these actions are done through an HTTP GET, which also means that they're all easily explorable through a browser as described above.
 
 Here's a few examples of reading with curl:
 
