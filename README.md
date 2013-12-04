@@ -32,6 +32,10 @@ Wrappers and example code
 **Erlang**
 * [ecampfire](https://github.com/0xAX/ecampfire)
 
+**Go**
+* [gofire](https://github.com/dmathieu/gofire)
+
+
 Wrote your own API wrapper? Feel free to open a pull request and add to this list!
 
 
