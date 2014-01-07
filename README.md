@@ -17,6 +17,7 @@ Wrappers and example code
 * [Camplight](https://github.com/mlafeldt/camplight)
 
 **Objective-C**
+* [Crackle](https://github.com/jordanekay/Crackle)
 * [HappyCamprFramework](https://github.com/blladnar/HappyCamprFramework/)
 
 **PHP**
