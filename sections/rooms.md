@@ -35,7 +35,7 @@ Get rooms
 Get room
 --------
 
-* `GET /room/#{id}.xml` returns an existing room. 
+* `GET /room/#{id}.xml` returns an existing room.
 
 This endpoint also includes all the users currently inside the room.
 
@@ -60,7 +60,7 @@ This endpoint also includes all the users currently inside the room.
       <id type="integer">1</id>
       <name>Jason Fried</name>
       <type>Member</type>
-      <avatar-url>http://asset0.37img.com/global/.../avatar.png</avatar-url>
+      <avatar-url>https://asset0.37img.com/global/.../avatar.png</avatar-url>
     </user>
     ...
   </users>
@@ -71,7 +71,7 @@ This endpoint also includes all the users currently inside the room.
 Update room
 -----------
 
-* `PUT /room/#{id}.xml` updates an existing room. 
+* `PUT /room/#{id}.xml` updates an existing room.
 
 Only admins can rename a room, although any user (except guests) may set the topic. Omitting either tag results in that attribute being ignored. To remove a room topic, simply provide an empty `topic` tag.
 

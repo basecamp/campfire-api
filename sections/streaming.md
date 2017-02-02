@@ -42,34 +42,34 @@ The target host is always `streaming.campfirenow.com`.
 Examples
 --------
 
-Need to get started quickly with the Campfire Streaming API? Try one of our example scripts that use the [twitter-stream](http://github.com/voloko/twitter-stream) library or [YAJL Ruby C bindings](http://github.com/brianmario/yajl-ruby):
+Need to get started quickly with the Campfire Streaming API? Try one of our example scripts that use the [twitter-stream](https://github.com/voloko/twitter-stream) library or [YAJL Ruby C bindings](https://github.com/brianmario/yajl-ruby):
 
 **twitter-stream**
 
 ``` ruby
 # gem install twitter-stream
 require 'twitter/json_stream'
- 
+
 token = 'xxx' # your API token
 room_id = 111 # the ID of the room you want to stream
- 
+
 options = {
   :path => "/room/#{room_id}/live.json",
   :host => 'streaming.campfirenow.com',
   :auth => "#{token}:x"
 }
- 
+
 EventMachine::run do
   stream = Twitter::JSONStream.connect(options)
- 
+
   stream.each_item do |item|
     puts item
   end
- 
+
   stream.on_error do |message|
     puts "ERROR:#{message.inspect}"
   end
- 
+
   stream.on_max_reconnects do |timeout, retries|
     puts "Tried #{retries} times to connect."
     exit
@@ -88,7 +88,7 @@ require "yajl/http_stream"
 token = 'xxx' # your API token
 room_id = 111 # the ID of the room you want to stream
 
-url = URI.parse("http://#{token}:x@streaming.campfirenow.com/room/#{room_id}/live.json")
+url = URI.parse("https://#{token}:x@streaming.campfirenow.com/room/#{room_id}/live.json")
 Yajl::HttpStream.get(url) do |message|
   puts message.inspect
 end

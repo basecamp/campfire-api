@@ -13,7 +13,7 @@ This endpoint includes:
 * account id, subdomain, and name
 * plan name (max, plus, etc.)
 * owner’s user ID
-* time zone in [tz format](http://en.wikipedia.org/wiki/Zone.tab)
+* time zone in [tz format](https://en.wikipedia.org/wiki/Zone.tab)
 * total storage used in bytes
 * creation and last-update timestamps
 
