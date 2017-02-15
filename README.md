@@ -142,9 +142,7 @@ You can perform up to 500 requests per 10 second period from the same IP address
 SSL Usage
 ---------
 
-A non-SSL request made against an account that has SSL enabled (and vice versa) will receive a "302 Found" response. The Location header will contain the correct URI.
-
-If SSL is enabled for your account, ensure that you're using https. If it's not, ensure you're using http.
+A non-SSL request made against an account will receive a "302 Found" response. The Location header will contain the correct SSL URI.
 
 
 Documentation Conventions
