@@ -120,7 +120,7 @@ Similarly, if you want to use JSON:
     curl -u 605b32dd:X -H 'Content-Type: application/json' \
     -d '{"message":{"body":"Hello"}}' https://sample.campfirenow.com/room/1/speak.json
 
-The response to a succesful write operation is the status code `201 Created`. We also include the complete XML or JSON for the final resource in the response. This is because you can usually get away with creating a new resource with less than all its regular attributes.
+The response to a successful write operation is the status code `201 Created`. We also include the complete XML or JSON for the final resource in the response. This is because you can usually get away with creating a new resource with less than all its regular attributes.
 
 
 Dealing with failure
